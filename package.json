@@ -1,0 +1,13 @@
+{
+    "title": "This Is Facebook",
+    "name": "this-is-facebook",
+    "version": "0.0.4",
+    "description": "Replace every face on facebook with Leonidas' face (when possible)",
+    "main": "index.js",
+    "author": "Bechir Nemlaghi",
+    "engines": {
+        "firefox": ">=32.0",
+        "fennec": ">=32.0"
+    },
+    "license": "MIT"
+}
