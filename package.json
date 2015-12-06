@@ -1,7 +1,7 @@
 {
     "title": "This Is Facebook",
     "name": "this-is-facebook",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Replace every face on facebook with Leonidas' face (when possible)",
     "main": "index.js",
     "author": "Bechir Nemlaghi",
@@ -9,5 +9,12 @@
         "firefox": ">=34.0",
         "fennec": ">=34.0"
     },
+    "preferences": [{
+        "name": "faceUrl",
+        "title": "Custom Face Image",
+        "description": "Use this image's url as custom face",
+        "type": "string",
+        "value": ""
+    }],
     "license": "MIT"
 }
