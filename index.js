@@ -7,10 +7,10 @@ var facebookTabs = [];
 
 var style = Style({
     source: '.fbPhotosPhotoTagboxBase {'
-        +'background-size: 100% 110%;'
-        +'background-position: 20% 70%;'
-        +'background-image: url('+self.data.url("images/default.gif")+');'
-        +'}'
+            + 'background-size: 100% 110%;'
+            + 'background-position: 20% 70%;'
+            + 'background-image: url(' + self.data.url("images/default.gif") + ');'
+            + '}'
 });
 
 var button = ToggleButton({
